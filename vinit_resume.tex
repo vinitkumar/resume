@@ -1,0 +1,195 @@
+\documentclass[9pt]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[usenames]{color}
+
+\leftmargin=0.25in
+\oddsidemargin=0.25in
+\textwidth=6.0in
+\topmargin=-0.25in
+\textheight=9.25in
+
+\raggedright
+
+\pagenumbering{arabic}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+% DEFINITIONS FOR RESUME
+
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item[]}{\end{list}
+}
+
+\newcommand{\lineover}{
+	\begin{changemargin}{-0.05in}{-0.05in}
+		\vspace*{-8pt}
+		\hrulefill \\
+		\vspace*{-2pt}
+	\end{changemargin}
+}
+
+\newcommand{\header}[1]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\scshape{#1}\\
+  	\lineover
+	\end{changemargin}
+}
+
+\newcommand{\contact}[4]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\begin{center}
+			{\Large \scshape {#1}}\\ \smallskip
+			{#2}\\ \smallskip 
+			{#3}\\ \smallskip
+			{#4}\smallskip
+		\end{center}
+	\end{changemargin}
+}
+
+\newenvironment{body} {
+	\vspace*{-16pt}
+	\begin{changemargin}{-0.25in}{-0.5in}
+  }	
+	{\end{changemargin}
+}	
+
+\newcommand{\school}[4]{
+	\textbf{#1} \hfill \emph{#2\\}
+	#3\\ 
+	#4\\
+}
+
+% END RESUME DEFINITIONS
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Name
+\contact{Vinit Kumar}{http://vinitkumar.me}{vinit.kumar@changer.nl}{+91-8554862210}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Objective
+\header{Summary}
+
+\begin{body}
+	\vspace{14pt}
+I am a highly motivated, self driven web developer with skills in technologies such as Python, Django, JavaScript, Ruby, Postgresql, MongoDB, Node.js, Git among others.
+
+I favour standards based development and follow a disciplined approach to programming. I take pride and ownership in the products I work. I constantly work hard on upgrading my skills and knowledge in my area of expertise. I try to be platform/Language/framework agnostic due to which I am able to pick up technologies pretty quickly and get productive in short time. 
+
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Education
+\header{Education}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{B.E Civil Engineering }{} \hfill \emph{Sep 2012}{} \\
+	\emph{Birla Institute of Technology},Mesra{} \\
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Experience
+\header{Career History}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{Software Engineer}, \emph{Changer, Pune} \hfill \emph{Feb 2013 - Present}\\
+	\vspace*{-4pt}
+
+\begin{itemize} 
+	
+	\item Full time developer building Socialschools(http://socialschools.nl) which is a safe and secure Social Network committed to improve the communication and lives of people involved in Schools. I lead the Frontend Development of Socialschools along with work on the backend layers (mostly Django/Postgres). I also take care of any websites/CMS that is built for Socialschools. 
+\item Along with Socialschools, I am the Lead developer for our service based offerings based on Django and Django-cms. 
+
+\item I enjoy problem solving and both of the above products give me enough opportunities to do so.
+\end{itemize}
+	\vspace{14pt}
+	\textbf{Freelance Web Developer}, \emph{gadgetizor.com and digitizor.com} \hfill \emph{Summer 2011 - Jan 2013}\\
+	\vspace*{-4pt}
+	\begin{itemize} \itemsep -0pt  % reduce space between items
+		\item Worked on the design and scaling of wordpress based high traffic sites mentioned above.
+	\end{itemize}
+
+	\textbf {Chrome Extension Developer}, \emph{Worked on a E-Commerce based Chrome Extension and a official extension of Coderwall.com coderwall.com/api} \hfill \emph{Sep 2012-Nov 2012}\\
+	\vspace*{-4pt}
+	\begin{itemize} \itemsep -0pt
+		\item Developed a full stack e-commerce based chrome Extension.
+		\item Developed the Official Chrome Extension for Coderwall.com.
+	\end{itemize}
+\end{body}
+
+\smallskip
+
+% \newpage{} % uncomment this line if you want to force a new page
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Skills
+\header{Skills}
+
+\begin{body}
+	\vspace{14pt}
+	\emph{\textbf{Programming:}}{} Python, HTML5/CSS3,  JavaScript, AngularJS, CoffeeScript, Jquery, \LaTeX, BackBoneJS, PostgreSQL\\
+	\medskip
+	\emph{\textbf{Operating Systems:}}{} OS X, Linux,  Windows\\
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Links
+\header{Important links}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{Github Profile} : http://github.com/vinitkumar \hfill{}\\
+	\smallskip
+	\textbf{Linkedin Profile} : http://in.linkedin.com/in/vinitatlinkedin/ \hfill{}\\
+\end{body}
+
+\smallskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Leadership
+\header{Leadership Activities}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{Administrator, In-Charge} : Linux User Group, (Bit Mesra) \hfill {} \emph{June 2011 - May 2012}\\
+	\smallskip
+	\textbf{Adminstrator} : Web and DC server, (Bit Mesra) \hfill{} \emph{June 2011- May 2012}\\
+\end{body}
+
+\smallskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Publications
+\header{Blog}
+
+\begin{body}
+	\vspace{14pt}
+	Gotchacode \textbf{Tech-blog covering topics related to web and Open Source.} \emph{ www.gotchacode.com}\\
+	\smallskip
+\end{body}
+
+\smallskip
+
+\end{document}
