@@ -1,0 +1,193 @@
+\documentclass[9pt]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[usenames]{color}
+
+\leftmargin=0.25in
+\oddsidemargin=0.25in
+\textwidth=6.0in
+\topmargin=-0.25in
+\textheight=9.25in
+
+\raggedright
+
+\pagenumbering{arabic}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+% DEFINITIONS FOR RESUME
+
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item[]}{\end{list}
+}
+
+\newcommand{\lineover}{
+	\begin{changemargin}{-0.05in}{-0.05in}
+		\vspace*{-8pt}
+		\hrulefill \\
+		\vspace*{-2pt}
+	\end{changemargin}
+}
+
+\newcommand{\header}[1]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\scshape{#1}\\
+  	\lineover
+	\end{changemargin}
+}
+
+\newcommand{\contact}[4]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\begin{center}
+			{\Large \scshape {#1}}\\ \smallskip
+			{#2}\\ \smallskip 
+			{#3}\\ \smallskip
+			{#4}\smallskip
+		\end{center}
+	\end{changemargin}
+}
+
+\newenvironment{body} {
+	\vspace*{-16pt}
+	\begin{changemargin}{-0.25in}{-0.5in}
+  }	
+	{\end{changemargin}
+}	
+
+\newcommand{\school}[4]{
+	\textbf{#1} \hfill \emph{#2\\}
+	#3\\ 
+	#4\\
+}
+
+% END RESUME DEFINITIONS
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Name
+\contact{Rituparna Dey}{http://rituparnadey.com}{deyritu20@gmail.com}{+91-8390992377}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Objective
+\header{Summary}
+
+\begin{body}
+	\vspace{14pt}
+I am a front-end Developer who strives to write quality code and create pixel perfect websites.\\
+I freelance as a consultant for Wordpress, bootstrap and JavaScript based websites. You can message me here for any of these web development requirements.\\
+
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Education
+\header{Education}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{M.Sc(Information Science)}{} \hfill \emph{June 2013 8.3 CGPA}{} \\
+	\emph{Birla Institute of Technology},Mesra{} \\
+\end{body}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{BCA }{} \hfill \emph{June 2011 7.07 CGPA}{} \\
+	\emph{Birla Institute of Technology},Mesra{} \\
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Experience
+\header{Career History}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{Owner}, \emph{bongrasoi.com} \hfill \emph{Feb 2015 - Present}\\
+	\begin{itemize}
+		\item Owner and content curator at a popular recipe blog bongrasoi.com. I also oversee the social media marketing, Website design and Content Management.\\
+	\end{itemize}
+	\vspace*{-4pt}
+\end{body}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{Front-end Developer}, \emph{rituparnadey.com} \hfill \emph{Jeb 2015 - Present}\\
+	\begin{itemize}
+		\item I consultant for US based clients for Wordpress, bootstrap and JavaScript based websites.\\
+	\end{itemize}
+	\vspace*{-4pt}
+\end{body}
+
+\smallskip
+
+% \newpage{} % uncomment this line if you want to force a new page
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Skills
+\header{Skills}
+
+\begin{body}
+	\vspace{14pt}
+	\emph{\textbf{Programming:}}{} HTML5, CSS3, PHP, JavaScript, MySQL, Excel, Wordpress, Web Design, jQuery, SEO,\\
+Technical Writing, Content Writing, CMS, Blogging\\
+	\medskip
+	\emph{\textbf{Operating Systems:}}{} OS X, Linux,  Windows\\
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Links
+\header{Important links}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{Github Profile} : http://github.com/rituparnadey \hfill{}\\
+	\smallskip
+	\textbf{Linkedin Profile} : http://in.linkedin.com/in/rituparnadey \hfill{}\\
+	\textbf{Upwork Profile} : http://bit.ly/2pKlPZw \hfill{}\\
+	\smallskip
+\end{body}
+
+\smallskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Leadership
+\header{Extra Curricular Activities}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{Dance} : Won Second prize in Inter School Zonal Dance competition \hfill {} \emph{June 2013}\\
+	\smallskip
+\end{body}
+
+\smallskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Publications
+\header{Blog}
+
+\begin{body}
+	\vspace{14pt}
+	BongRasoi \textbf{Owner and content curator at a popular recipe blog bongrasoi.com.} \emph{bongrasoi.com}\\
+	\smallskip
+\end{body}
+
+\smallskip
+
+\end{document}
