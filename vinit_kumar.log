@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.13)  13 FEB 2018 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.13)  13 FEB 2018 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -162,7 +162,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 Here is how much of TeX's memory you used:
  1880 strings out of 494437
  23392 string characters out of 6166645
- 81678 words of memory out of 5000000
+ 82678 words of memory out of 5000000
  5252 multiletter control sequences out of 15000+600000
  5553 words of font info for 20 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
@@ -174,7 +174,7 @@ ype1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2017basic/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017basic/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017basic/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on vinit_kumar.pdf (1 page, 92131 bytes).
+Output written on vinit_kumar.pdf (1 page, 92334 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
