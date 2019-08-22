@@ -1,0 +1,13 @@
+# Fdb version 3
+["pdflatex"] 1562046688 "vinit.tex" "vinit.pdf" "vinit" 1562046688
+  "/usr/local/texlive/2018basic/texmf-dist/tex/latex/base/article.cls" 1523050425 19823 fcbc01552b07b608574cbf8e1977e0c0 ""
+  "/usr/local/texlive/2018basic/texmf-dist/tex/latex/base/size10.clo" 1523050425 8294 b0f177401f895563eb19304d2389582d ""
+  "/usr/local/texlive/2018basic/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
+  "/usr/local/texlive/2018basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1547635938 2657848 a098d3021cabe0f923a773cb6e465d00 ""
+  "/usr/local/texlive/2018basic/texmf.cnf" 1523933242 628 fc6344cfe40d0ae2a8eba43e51328a06 ""
+  "resume.cls" 1151506378 25869 5ae9a32e381a69b17c6777b6334f0238 ""
+  "vinit.aux" 1562046688 8 a94a2480d3289e625eea47cd1b285758 ""
+  "vinit.tex" 1562046661 44 6dd19b8349f7bd03b38de00912fd087d ""
+  (generated)
+  "vinit.pdf"
+  "vinit.log"
